@@ -1,2 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.clear {
+  clear:both;
+}
+
+.navbar-brand {
+  padding: 10px; 
+  min-height: 85px;
+}
+
+.bottom-align {
+    padding-top: 44px;
+  }

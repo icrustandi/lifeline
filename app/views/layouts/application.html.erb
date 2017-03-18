@@ -6,6 +6,51 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+              <img alt="Lifeline", src="/assets/lifeline_logo.png" alt= "Lifeline", title= 'Church graphic by Freepik from http://www.flaticon.com/authors/freepik is licensed under Creative Commons BY 3.0 http://creativecommons.org/licenses/by/3.0/. Made with Logo Maker http://logomakr.com'>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <span class="align-bottom">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Link</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+        </span>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+<!--     <div class="col-xs-3">
+      <%= link_to image_tag('lifeline_logo.png', alt: "Lifeline", title: 'Church graphic by Freepik from http://www.flaticon.com/authors/freepik is licensed under Creative Commons BY 3.0 http://creativecommons.org/licenses/by/3.0/. Made with Logo Maker http://logomakr.com'), root_path %>
+
+    </div>
+    <div class="col-xs-4">
+      Because life matters
+    </div>
+    <div class="col-xs-5">
+      <%= link_to 'Youth', '#' %>
+      <%= link_to 'About Us', '#' %>
+    </div> -->
+  </header>
+
+  <br class="clear" />
 
 <%= yield %>
 
