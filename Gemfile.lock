@@ -44,6 +44,8 @@ GEM
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     execjs (2.7.0)
+    flexbox-rails (1.0.1)
+      rails (>= 3.1)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -120,6 +122,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.5.1)
   coffee-rails (~> 4.0.0)
+  flexbox-rails
   jbuilder (~> 2.0)
   jquery-rails
   pg
