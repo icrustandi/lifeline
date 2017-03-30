@@ -30,6 +30,39 @@
     z-index: 1;
 }
 
+.overlay { 
+  position:absolute;
+  z-index:12;
+  bottom:0%;
+  left:0;
+  width:100%;
+  text-align:center;
+  background:rgba(0,0,0, 0.5);
+  color:rgba(255,255,255, 0.8);
+  font-size: 30px;
+  font-size: 3.5vw;
+  font-family: "Verdana", sans-serif;
+}
 
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-height: 550px;
+  max-width: 100%;
+  margin:0 auto;
+}
 
+body {
+  background: url('/assets/subtle_white_mini_waves.png');
+  padding-top: 50px;
+}
+
+.navbar.navbar-default {
+  margin: 0;
+  background:rgba(6, 72, 129, .5);
+  border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+.navbar { 
+  border: 0px solid transparent; 
+}
