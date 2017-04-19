@@ -45,10 +45,8 @@
 }
 
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  max-height: 550px;
-  max-width: 100%;
-  margin:0 auto;
+.carousel .item {
+  height: 55vmin;
 }
 
 body {
@@ -66,3 +64,14 @@ body {
 .navbar { 
   border: 0px solid transparent; 
 }
+
+/* 
+    http://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-a-div-while-keeping-the-images-aspect-rat
+    height: 45vh;
+    max-height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/assets/steve.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 25%; */
