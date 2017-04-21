@@ -30,20 +30,6 @@
     z-index: 1;
 }
 
-.overlay { 
-  position:absolute;
-  z-index:12;
-  bottom:0%;
-  left:0;
-  width:100%;
-  text-align:center;
-  background:rgba(0,0,0, 0.5);
-  color:rgba(255,255,255, 0.8);
-  font-size: 30px;
-  font-size: 3.5vw;
-  font-family: "Verdana", sans-serif;
-}
-
 
 .carousel .item {
   height: 55vmin;
@@ -64,6 +50,75 @@ body {
 .navbar { 
   border: 0px solid transparent; 
 }
+.navbar-default .navbar-nav>li>a {
+  color: rgb(239, 239, 239);
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: white;
+}
+
+.navbar-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 15px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: rgb(239, 239, 239);
+  font-size: 1.5em;
+  text-shadow: 1px 1px black;
+}
+
+.nav li.nav-text {
+  padding: 15px
+}
+
+.navbar-toggle collapsed {
+  text-align: left;
+}
+
+button.navbar-toggle{
+  background-color: transparent;
+  border-color: rgb(239, 239, 239);
+}
+
+button.navbar-toggle:hover {
+  background-color:transparent !important;
+  border-color: white 
+}
+
+button.navbar-toggle:focus {
+  background-color:transparent !important;
+  border-color: white 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(239, 239, 239);
+}
+
+.navbar-default div.navbar-collapse
+{
+    border-top:none;
+    box-shadow:none;
+}
+
+.navbar-left a:hover {
+  color:white !important;
+}
+
+.modal-content {
+  background-color: rgba(255,255,255,0.83);
+}
+
+.modal {
+  width: 90%; /* desired relative width */
+  top: 5%;
+  bottom: 5%;
+  margin: auto;
+}
+
 
 /* 
     http://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-a-div-while-keeping-the-images-aspect-rat

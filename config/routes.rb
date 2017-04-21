@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root 'pictures#index'
+  get 'about', to: 'pictures#about'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
