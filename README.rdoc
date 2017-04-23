@@ -1,28 +1,11 @@
-== README
+== Lifeline Website
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple church website with email form submission using simple_form and mail_form gems.
 
-Things you may want to cover:
+Future features to work on:
+- Implement an events/blog page
+- Admin login to add content for events/blog
+- Calendar integration
 
-* Ruby version
+Production website: http://www.lifeline-church.org/
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
