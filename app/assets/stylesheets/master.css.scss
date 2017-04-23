@@ -154,7 +154,9 @@ button.close:hover {
 .modal-pages img{
   max-width:100%;
   max-height:100%;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
