@@ -40,6 +40,12 @@ body {
   padding-top: 50px;
 }
 
+.welcome {
+  text-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .navbar.navbar-default {
   margin: 0;
   background:rgba(6, 72, 129, .5);
@@ -119,6 +125,42 @@ button.navbar-toggle:focus {
   margin: auto;
 }
 
+button.close {
+  float: left;
+  opacity: 1;
+  color: #a90000;
+  position: fixed;
+}
+
+button.close:hover {
+  color: red;
+}
+
+.modal-page-container {
+  background-color: rgba(255,255,255,0.83);
+}
+
+.modal-pages {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.modal-pages p {
+  text-align: justify;
+}
+
+.modal-pages h1 {
+  font-size: 5vmin;
+}
+
+.modal-pages img{
+  max-width:100%;
+  max-height:100%;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
 
 /* 
     http://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-a-div-while-keeping-the-images-aspect-rat

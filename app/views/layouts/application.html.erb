@@ -6,7 +6,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div id="wrap">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,9 +28,9 @@
       <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
 
-          <li><a data-toggle="modal" href="/about.html" data-target="#myModal">About Us</a></li>
+          <li><a data-toggle="modal" href="/about.html" data-target="#aboutModal">About Us</a></li>
 
-          <li><a href="#">Youth</a></li>
+          <li><a data-toggle="modal" href="/youth.html" data-target="#youthModal">Youth</a></li>
         </ul>
 
       </div>
@@ -44,38 +44,48 @@
 
     </nav>
 
-
-
-<!--     <div class="col-xs-3">
-    </div>
-    <div class="col-xs-4">
-      Because life matters
-    </div>
-    <div class="col-xs-5">
-      <%= link_to 'Youth', '#' %>
-      <%= link_to 'About Us', '#' %>
-    </div> -->
-
 <%= yield %>
-
+  </div>
           <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
               <div class="modal-admin">
                   <div class="modal-content">
-                      <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                           <h4 class="modal-title">Modal title</h4>
-                      </div>
-                      <div class="modal-body"><div class="te"></div></div>
-                      <div class="modal-footer">
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
-                      </div>
-                  </div>
                   <!-- /.modal-content -->
+                  </div>
+              </div>
+              <!-- /.modal-dialog -->
+          </div>
+          <div class="modal fade" id="youthModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-admin">
+                  <div class="modal-content">
+                  <!-- /.modal-content -->
+                  </div>
               </div>
               <!-- /.modal-dialog -->
           </div>
           <!-- /.modal -->
+<br class="clear" />
+  <div id="footer">
+    <div class="container">
+      <div class="col-xs-12 col-sm-6 social">
+        <b>Find Us&nbsp&nbsp&nbsp</b>
+        <%= link_to 'mailto:lifelinemonrovia@gmail.com' do %>
+          <%= image_tag 'gmail.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.facebook.com/Lifeline-Monrovia-418276851590554/' do %>
+          <%= image_tag 'facebook.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.yelp.com/biz/lifeline-church-monrovia-monrovia' do %>
+          <%= image_tag 'yelp.png', class: 'social-button' %>
+        <% end %>
+      </div>
+      <div class="col-xs-12 col-sm-6 footer-address">
+        201 E Lime Ave, Monrovia, California 91016
+        <br />
+        (626) 303-3076
+        <br />  
+      </div>
+  </div>
+
 </body>
 </html>
