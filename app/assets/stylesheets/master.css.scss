@@ -123,6 +123,7 @@ button.navbar-toggle:focus {
   top: 5%;
   bottom: 5%;
   margin: auto;
+  background-color: rgba(255,255,255,0.83);
 }
 
 button.close {
@@ -136,9 +137,6 @@ button.close:hover {
   color: red;
 }
 
-.modal-page-container {
-  background-color: rgba(255,255,255,0.83);
-}
 
 .modal-pages {
   padding-left: 5%;
@@ -186,10 +184,24 @@ p.alert.alert-danger {
   max-height:100%;
 }
 
+.input.email.required.contact_email {
+  padding-top: 10px;
+}
+
+.input.text.required.contact_message {
+  padding-top: 10px;
+}
+
 @media (max-width: 750px) {
   .review-pic {
     padding-right: 15px;
     padding-bottom: 15px;
     text-align: center;
+  }
+  .modal {
+    width: 100%;
+  }
+  button.close {
+    margin-left: -3vmin;
   }
 }
