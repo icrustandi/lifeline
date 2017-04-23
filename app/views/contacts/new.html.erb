@@ -7,13 +7,13 @@
     <br />
     <br />
     <p>
-    We feel the Bible is God's Word; His love letter to us. If you would like us to send you a free Bible, or other material to help you in your spiritual journey, please request that through the form below noting your mailing address and what you'd like us to send you.
+    We feel the Bible is God's Word; His love letter to us. If you would like us to send you a free Bible, or other material to help you in your spiritual journey, you may make a request through the form below. Please note your mailing address and what you'd like us to send you.
     </p>
 
     <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
     <%= f.input :name, :required => true %>
     <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
+    <%= f.input :message, placeholder: "Please include your mailing address and specify the material you'd like us to send.",:as => :text, :required => true %>
     <div class= "hidden">
       <%= f.input :nickname, :hint => 'Leave this field blank!' %>
     </div>
