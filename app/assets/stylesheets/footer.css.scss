@@ -29,12 +29,12 @@ body {
 	text-align: right;
 }
 
-.social-button {
+.footer-button {
   width: 32px;
   margin: 4px;
 }
 
-.social img {
+.footer img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
@@ -49,6 +49,11 @@ body {
 .social a:hover {
   text-decoration:none;	
 }
+
+.social a:focus {
+  text-decoration:none;	
+}
+
 
 $footer-height-mobile: 100px;
 @media (max-width: 750px) {
