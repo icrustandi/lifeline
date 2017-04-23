@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   root 'pictures#index'
   get 'about', to: 'pictures#about'
   get 'youth', to: 'pictures#youth'
+  get 'contacts', to: 'contacts#new'
+  resources "contacts", only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

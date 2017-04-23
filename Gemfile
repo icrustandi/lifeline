@@ -30,6 +30,9 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets'
 gem 'sass-rails'
 gem 'flexbox-rails'
+
+gem 'mail_form'
+gem 'simple_form'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

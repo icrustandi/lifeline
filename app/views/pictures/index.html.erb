@@ -1,5 +1,17 @@
-
-
+<!-- notifications -->
+<div class="notification">
+  <% flash.each do |key, value| %>
+    <div>
+      <% if notice.present? %>
+        <p class="alert alert-info"><%= value %></p>
+      <% end %>
+      <% if alert.present? %>
+        <p class="alert alert-danger"><%= value %></p>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+<!-- .notifications -->
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
 <!--   <div class="overlay">because life matters</div> -->
   <!-- Wrapper for slides -->

@@ -116,6 +116,7 @@ button.navbar-toggle:focus {
 
 .modal-content {
   background-color: rgba(255,255,255,0.83);
+  border: none;
 }
 
 .modal {
@@ -162,6 +163,17 @@ p {
   margin-bottom: 1.5em;
 }
 
+.hidden { 
+  display: none; 
+}
+
+p.alert.alert-info {
+  margin: 0;
+}
+
+p.alert.alert-danger {
+  margin: 0;
+}
 /* 
     http://stackoverflow.com/questions/1891857/how-do-you-stretch-an-image-to-fill-a-div-while-keeping-the-images-aspect-rat
     height: 45vh;
