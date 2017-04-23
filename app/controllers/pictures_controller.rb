@@ -1,5 +1,5 @@
 class PicturesController < ApplicationController
-	layout false, only: [:about, :youth]
+	layout false, only: [:about, :youth, :testimonial]
 	def index
 	end
 	def about
