@@ -33,6 +33,7 @@ gem 'flexbox-rails'
 
 gem 'mail_form'
 gem 'simple_form'
+gem 'actionview-encoded_mail_to'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -14,6 +14,8 @@ GEM
       activesupport (= 4.1.9)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+    actionview-encoded_mail_to (1.0.9)
+      rails
     activemodel (4.1.9)
       activesupport (= 4.1.9)
       builder (~> 3.1)
@@ -28,7 +30,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (6.7.7)
+    autoprefixer-rails (6.7.7.2)
       execjs
     bootstrap-sass (3.3.5.1)
       autoprefixer-rails (>= 5.0.0.1)
@@ -113,19 +115,20 @@ GEM
       sprockets (>= 2.8, < 4.0)
     thor (0.19.4)
     thread_safe (0.3.6)
-    tilt (2.0.6)
+    tilt (2.0.7)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.7)
+    uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview-encoded_mail_to
   bootstrap-sass (~> 3.3.5.1)
   coffee-rails (~> 4.0.0)
   flexbox-rails

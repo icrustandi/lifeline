@@ -82,7 +82,7 @@
   <div id="footer">
       <div class="col-xs-12 col-sm-6 social">
         <b>Find Us&nbsp&nbsp&nbsp</b>
-        <%= link_to 'mailto:lifelinemonrovia@gmail.com', target: :_blank do %>
+        <%= mail_to "lifelinemonrovia@gmail.com", encode: "hex" do %>
           <%= image_tag 'footer-gm.png', class: 'footer-button', title: 'Email' %>
         <% end %>
         <%= link_to 'https://www.facebook.com/Lifeline-Monrovia-418276851590554/', target: :_blank do %>
