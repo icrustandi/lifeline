@@ -7,5 +7,5 @@ Future features to work on:
 - Admin login to add content for events/blog
 - Calendar integration
 
-Production website: http://www.lifeline-church.org/
+Production website: http://www.lifeline-church.org
 
