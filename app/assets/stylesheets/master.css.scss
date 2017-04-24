@@ -131,6 +131,7 @@ button.close {
   opacity: 1;
   color: #a90000;
   position: fixed;
+  margin: 0px -10px;
 }
 
 button.close:hover {
@@ -202,8 +203,5 @@ p.alert.alert-danger {
   }
   .modal {
     width: 95%;
-  }
-  button.close {
-    margin: 0px -10px;
   }
 }
