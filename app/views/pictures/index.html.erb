@@ -17,7 +17,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
 
-    <div class="item active" style="background: url(assets/wing.png) no-repeat center 25%; background-size: 100% auto;">
+    <div class="item active" style="background: url(assets/wing.png) no-repeat center 25%; background-size: auto 100%;">
     </div>
     <div class="item" style="background: url(assets/steve.jpg) no-repeat center 7%; background-size: 100% auto;">
     </div>
@@ -35,14 +35,16 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
-
- <div class="col-xs-10 col-xs-offset-1 welcome">
-    Welcome!
-    <br />
-    <br />
+<div class="col-xs-12 welcome-message">
+  Welcome to Lifeline Church!
+</div>
+<div class="col-xs-10 col-xs-offset-1 welcome-container">
+ <div class="col-sm-12 welcome welcome-left">
     Our service starts every <b>Sunday at 9:30 AM</b>.
     <br />
     <br />
+  </div>
+  <div class="col-sm-12 welcome welcome-right">
     We are located at:
     <br />
     <b>
@@ -51,15 +53,16 @@
     201 E Lime Ave 
     <br/> 
     Monrovia, California
-  	</b>
-    <br />
-    <br />
-    Having second thoughts? Read 
-    <a data-toggle="modal" href="/testimonial.html" data-target="#testimonialModal">what people say about us</a>!
+    </b>
     <br />
   </div>
 
-
+  <div class="col-sm-12 welcome welcome-testimonial">
+    Having second thoughts? Read 
+    <b><a data-toggle="modal" href="/testimonial.html" data-target="#testimonialModal">what people say about us</a></b>!
+    <br />
+  </div>
+</div>
     <!-- Modal -->
   <div class="modal fade" id="testimonialModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-admin">

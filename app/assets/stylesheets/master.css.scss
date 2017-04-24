@@ -39,10 +39,29 @@ body {
   background: url('/assets/subtle_white_mini_waves.png');
   padding-top: 50px;
 }
+.welcome-container {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 
 .welcome {
-  text-size: 18px;
-  padding: 15px 0px;
+  font-size: 16px;
+  padding: 0;
+}
+
+.welcome-message {
+  font-size: 2.5vw;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.welcome-testimonial {
+  padding-top: 35px;  
+}
+
+.welcome-right, .welcome-left {
+  text-align: center;
 }
 
 .navbar.navbar-default {
@@ -203,5 +222,18 @@ p.alert.alert-danger {
   }
   .modal {
     width: 95%;
+  }
+  .welcome-right, .welcome-left {
+    text-align: left;
+  }
+  .welcome-message {
+  font-size: 20px;
+  }
+
+}
+
+@media (min-aspect-ratio: 1600/1000) {
+  .carousel .item {
+    height: 35vw;
   }
 }
