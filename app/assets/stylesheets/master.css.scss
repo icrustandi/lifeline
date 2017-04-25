@@ -192,6 +192,15 @@ button.close:hover {
   height: 100%;
 }
 
+.modal-pages-welcome {
+  padding: 2% 1%;
+}
+
+.modal-small {
+  width: 70vw; /* desired relative width */
+  height: 41vw;
+}
+
 p {
   margin-bottom: 1.5em;
 }
@@ -235,6 +244,10 @@ p.alert.alert-danger {
   }
   .modal {
     width: 95%;
+  }
+  .modal-small {
+  width: 70vw; /* desired relative width */
+  height: 41vw;
   }
   .welcome-right, .welcome-left {
     text-align: left;

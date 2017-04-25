@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pictures#about'
   get 'youth', to: 'pictures#youth'
   get 'testimonial', to: 'pictures#testimonial'
+  get 'welcome', to: 'pictures#welcome'
   get 'contacts', to: 'contacts#new'
   resources "contacts", only: [:new, :create]
   # The priority is based upon order of creation: first created -> highest priority.

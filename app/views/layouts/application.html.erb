@@ -6,6 +6,7 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script>
+  // aboutModal listener
   // make sure that video autoplays on open and stops on close
     $(document).on('show.bs.modal', '#aboutModal', function(e){ // on opening the modal
       // set the video to autostart
@@ -14,6 +15,13 @@
     $(document).on('hidden.bs.modal', '#aboutModal', function(e){ // on closing the modal
       // stop the video
       $("#aboutModal iframe").attr("src", null);
+    });
+  // welcomeModal listener
+    $(document).on('show.bs.modal', '#welcomeModal', function(e){
+      $("#welcomeModal iframe").attr("src", "https://player.vimeo.com/video/72022489?title=0&byline=0&portrait=0&autoplay=1");
+    });
+    $(document).on('hidden.bs.modal', '#welcomeModal', function(e){
+      $("#welcomeModal iframe").attr("src", null);
     });
 
   </script>
@@ -90,6 +98,7 @@
               <!-- /.modal-dialog -->
           </div>
           <!-- /.modal -->
+
 <br class="clear" />
   <div id="footer">
       <div class="col-xs-12 col-sm-6 social">
