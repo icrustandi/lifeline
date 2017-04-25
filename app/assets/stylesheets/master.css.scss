@@ -192,8 +192,17 @@ button.close:hover {
   height: 100%;
 }
 
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .modal-pages-welcome {
-  padding: 2% 1%;
+  padding-top: 2%;
+  padding-left: 1%;
 }
 
 .modal-small {
@@ -245,9 +254,13 @@ p.alert.alert-danger {
   .modal {
     width: 95%;
   }
+  .modal-pages-welcome {
+    padding-top: 4vw;
+    padding-left: 5vw;
+  }
   .modal-small {
-  width: 70vw; /* desired relative width */
-  height: 41vw;
+  width: 95vw; /* desired relative width */
+  height: 55vw;
   }
   .welcome-right, .welcome-left {
     text-align: left;
