@@ -106,9 +106,6 @@
         <%= mail_to "lifelinemonrovia@gmail.com", encode: "hex" do %>
           <%= image_tag 'footer-gm.png', class: 'footer-button', title: 'Email' %>
         <% end %>
-        <a data-toggle="modal" href="/testimonial.html" data-target="#testimonialModal">
-          <%= image_tag 'thinking.png', class: 'footer-button', title: 'Having second thoughts? Read what people say about us!' %>
-        </a>
         <%= link_to 'https://www.facebook.com/Lifeline-Monrovia-418276851590554/', target: :_blank do %>
           <%= image_tag 'footer-fb.png', class: 'footer-button', title: 'Facebook Page' %>
         <% end %>
@@ -118,6 +115,9 @@
         <%= link_to 'https://www.youtube.com/channel/UCz7kITqkMnZnFEyAOMM63Iw', target: :_blank do %>
           <%= image_tag 'footer-yt.png', class: 'footer-button', title: 'YouTube Channel' %>
         <% end %>
+        <a data-toggle="modal" href="/testimonial.html" data-target="#testimonialModal">
+          <%= image_tag 'thinking.png', class: 'footer-button', title: 'Having second thoughts? Read what people say about us!' %>
+        </a>
       </div>
       <div class="col-xs-12 col-sm-6 footer-address">
         201 E Lime Ave
