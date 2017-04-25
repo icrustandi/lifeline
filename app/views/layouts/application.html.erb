@@ -5,6 +5,18 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  // make sure that video autoplays on open and stops on close
+    $(document).on('show.bs.modal', '#aboutModal', function(e){ // on opening the modal
+      // set the video to autostart
+      $("#aboutModal iframe").attr("src", "https://player.vimeo.com/video/72022490?title=0&byline=0&portrait=0&autoplay=1");
+    });
+    $(document).on('hidden.bs.modal', '#aboutModal', function(e){ // on closing the modal
+      // stop the video
+      $("#aboutModal iframe").attr("src", null);
+    });
+
+  </script>
 </head>
 <body>
 
