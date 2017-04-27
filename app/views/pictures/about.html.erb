@@ -1,10 +1,12 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <div class="col-xs-12 modal-page-container">
   <button type="button" class="close" title="Close" data-dismiss="modal" aria-hidden="true">&times;</button>
   <div class="modal-pages">
     <h1>About Us</h1>
     <br />
     <div class="video-wrap">
-      <iframe src="https://player.vimeo.com/video/72022490?title=0&byline=0&portrait=0&autoplay=1" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+      <iframe id="lifeline-vid" src="https://player.vimeo.com/video/72022489?title=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
     </div>
     <br />
     <br />
@@ -13,13 +15,24 @@
   	</p>
   	<p>
        Lifeline is led by Steve Campodonico. Steve and his family have served overseas as missionaries for over a decade and have also served in churches in the US in different capacities.
-       </p>
+    </p>
+    <div class="center-button">
+      <button class="vid-button btn btn-danger" data-toggle="collapse" data-target="#video-collapse"><i class="material-icons">play_circle_filled</i>&nbspWatch Pastor Steve's Message</button>
+    </div>
+     <div id="video-collapse" class="collapse">
+        <div class="video-wrap">
+          <iframe id="steve-vid" src="https://player.vimeo.com/video/72022490?title=0&byline=0&portrait=0" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+        </div>
+      </div>
+      <br />
        <p>
        As you come to Lifeline you will find a close knit group of people who are excited about what God is doing in their lives. We don't have all the answers, but are striving to be a community of faith, hope, and love impacting the community around us as well as our global community.
   	</p>
        <p>
        We welcome people from all walks of life, regardless of where they are in their spiritual journey. We'd love to invite you to check out one of our services or activities and see what God is doing in our midst. As one of our members has said, "because you've got nothing to lose and everything to gain."
        </p>
+       <br />
+           
     	<br class="clear" />
     </div>
 </div>

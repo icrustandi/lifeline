@@ -9,21 +9,26 @@
   <script>
   // aboutModal listener
   // make sure that video autoplays on open and stops on close
-    $(document).on('show.bs.modal', '#aboutModal', function(e){ // on opening the modal
-      // set the video to autostart
-      $("#aboutModal iframe").attr("src", "https://player.vimeo.com/video/72022490?title=0&byline=0&portrait=0&autoplay=1");
-    });
-    $(document).on('hidden.bs.modal', '#aboutModal', function(e){ // on closing the modal
-      // stop the video
-      $("#aboutModal iframe").attr("src", null);
-    });
-  // welcomeModal listener
-    $(document).on('show.bs.modal', '#welcomeModal', function(e){
-      $("#welcomeModal iframe").attr("src", "https://player.vimeo.com/video/72022489?title=0&byline=0&portrait=0&autoplay=1");
-    });
-    $(document).on('hidden.bs.modal', '#welcomeModal', function(e){
-      $("#welcomeModal iframe").attr("src", null);
-    });
+  $(document).on('hidden.bs.modal', '#aboutModal', function (e) {
+    $("#aboutModal #lifeline-vid").attr("src", $("#aboutModal #lifeline-vid").attr("src"));
+    $("#aboutModal #steve-vid").attr("src", $("#aboutModal #steve-vid").attr("src"));
+});
+
+  //   $(document).on('show.bs.modal', '#aboutModal', function(e){ // on opening the modal
+  //     // set the video to autostart
+  //     $("#aboutModal steve-vid").attr("src", "https://player.vimeo.com/video/72022490?title=0&byline=0&portrait=0");
+  //   });
+  //   $(document).on('hidden.bs.modal', '#aboutModal', function(e){ // on closing the modal
+  //     // stop the video
+  //     $("#aboutModal steve-vid").attr("src", null);
+  //   });
+  // // welcomeModal listener
+  //   $(document).on('show.bs.modal', '#welcomeModal', function(e){
+  //     $("#welcomeModal iframe").attr("src", "https://player.vimeo.com/video/72022489?title=0&byline=0&portrait=0");
+  //   });
+  //   $(document).on('hidden.bs.modal', '#welcomeModal', function(e){
+  //     $("#welcomeModal iframe").attr("src", null);
+  //   });
 
   </script>
 </head>
@@ -107,15 +112,15 @@
         <%= mail_to "lifelinemonrovia@gmail.com", encode: "hex" do %>
           <%= image_tag 'footer-gm.png', class: 'footer-button', title: 'Email' %>
         <% end %>
-        <%= link_to 'https://www.facebook.com/Lifeline-Monrovia-418276851590554/', target: :_blank do %>
+<!--         <%= link_to 'https://www.facebook.com/Lifeline-Monrovia-418276851590554/', target: :_blank do %>
           <%= image_tag 'footer-fb.png', class: 'footer-button', title: 'Facebook Page' %>
-        <% end %>
+        <% end %> -->
         <%= link_to 'https://www.yelp.com/biz/lifeline-church-monrovia-monrovia', target: :_blank do %>
           <%= image_tag 'footer-y.png', class: 'footer-button', title: 'Yelp' %>
         <% end %>
-        <%= link_to 'https://www.youtube.com/channel/UCz7kITqkMnZnFEyAOMM63Iw', target: :_blank do %>
+<!--         <%= link_to 'https://www.youtube.com/channel/UCz7kITqkMnZnFEyAOMM63Iw', target: :_blank do %>
           <%= image_tag 'footer-yt.png', class: 'footer-button', title: 'YouTube Channel' %>
-        <% end %>
+        <% end %> -->
         <a data-toggle="modal" href="/testimonial.html" data-target="#testimonialModal">
           <%= image_tag 'thinking.png', class: 'footer-button', title: 'Having second thoughts? Read what people say about us!' %>
         </a>

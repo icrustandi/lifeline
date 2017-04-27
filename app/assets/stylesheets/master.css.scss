@@ -53,6 +53,7 @@ body {
 
 .welcome-message {
   font-size: 2.5vw;
+  color: #337ab7;
   text-align: center;
   font-weight: bold;
   padding: 15px;
@@ -245,6 +246,15 @@ p.alert.alert-danger {
 
 .input.text.required.contact_message {
   padding-top: 10px;
+}
+
+
+.center-button {
+  text-align: center;
+}
+
+.material-icons {
+  font-size: 14px !important;
 }
 
 @media (max-width: 750px) {
