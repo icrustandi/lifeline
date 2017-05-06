@@ -1,6 +1,6 @@
 == Lifeline Website
 
-A simple church website with email form submission using simple_form and mail_form gems.
+A simple church website with responsive design and email form submission using simple_form and mail_form gems.
 
 Future features to work on:
 - Implement an events/blog page
