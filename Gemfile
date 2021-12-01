@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'rails_12factor', group: :production
-gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sprockets', '~> 3.7.2'
 gem 'sass-rails'
 gem 'flexbox-rails'
