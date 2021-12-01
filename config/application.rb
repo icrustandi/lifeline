@@ -1,6 +1,9 @@
 require File.expand_path('../boot', __FILE__)
 
-require 'rails/all'
+require 'action_controller/railtie'
+require 'action_view/railtie'
+require 'action_mailer/railtie'
+require 'sprockets/railtie'
 require 'action_view/encoded_mail_to/mail_to_with_encoding'
 
 # Require the gems listed in Gemfile, including any gems
